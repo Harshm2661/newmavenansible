@@ -5,7 +5,7 @@
   tasks:
     - name: Copy WAR file to Tomcat
       copy:
-        src: "/var/snap/jenkins/4832/workspace/mavenwebapp/target/mavenwebapp.war"
+        src: "/var/snap/jenkins/4865/workspace/mavenwebapp/target/mavenwebapp.war"
         dest: "/opt/tomcat/webapps/mavenwebapp.war"
         remote_src: no
     - name:  Restart Tomcat
